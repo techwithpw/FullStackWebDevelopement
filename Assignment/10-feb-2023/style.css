@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+}
+img[alt="Hamb"]{
+    width: 20px;
+    display: none;
+}
+img[alt="Hello"]{
+    width: 20px;
+}
+img[alt="PC-Image"]{
+    width: 30vw;
+}
+img[alt="Project-Image"]{
+    width: 20vw;
+}
+img[alt="Github-Img"]{
+    width: 30px;
+}
+img[alt="LinkedIn-Img"]{
+    width: 30px;
+}
+img[alt="Outlook-Img"]{
+    width: 30px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 15px;
+    list-style: none;
+    font-size: 20px;
+}
+img:hover{
+    cursor: pointer;
+}
+.home{
+    background-color: rgb(100, 100, 224);
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+.navbody{
+    max-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px;
+}
+.heading1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+}
+.heading2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+.heading2 h1{
+    font-size: 37px;
+}
+.heading2 h3{
+    font-size: 22px;
+    color: rgb(197, 197, 89);
+}
+.projects{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.pro-bar{
+    height: 5px;
+    width: 83px;
+    margin-left: -1px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.projects h1{
+    font-size: 24.5px;
+}
+.pro-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    gap: 15px;
+
+}
+.contact h1{
+    font-size: 35px;
+}
+.con-bar{
+    height: 7px;
+    width: 175px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+/* ******************Media Queries******************************* */
+/* ************************************************************** */
+@media (max-width : 576px){
+    nav ul{
+        display: none;
+    }
+    img[alt="Hamb"]{
+        display: block;
+    }
+    .navbody{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .heading2 h3{
+        text-align: center;
+    }
+    img[alt="PC-Image"]{
+        width: 45vw;
+    }
+    .pro-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    .contact h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .con-bar{
+        height: 7px;
+        width: 151px;
+        background-color: blue;
+        border-radius: 20px;
+        margin-bottom: 15px;
+    }
+    .projects h1{
+        font-size: 35px;
+    }
+    .pro-bar{
+        height: 5px;
+        width: 122px;
+        margin-left: -1px;
+        background-color: blue;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    img[alt="Project-Image"]{
+        width: 50vw;
+    }
+    .projects{
+        margin-left: 0px;
+    }
+}
