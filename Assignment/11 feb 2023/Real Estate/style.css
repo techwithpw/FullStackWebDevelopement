@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f6f8fa;
+}
+
+/* **************Adding background image********** */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Photos/mainBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 170vh;
+    width: 100vw;
+}
+
+/* ****************Changing list-style property to none********  */
+li{
+    list-style: none;
+}
+
+
+/* *******************Styling the navigation menu****** */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0px;
+}
+
+nav img{
+    height: 50px;
+    width: 140px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    gap: 50px;
+}
+nav ul li{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+hr{
+    margin: 0px 90px;
+}
+
+/* *****************Styling the body of the header*********** */
+header div{
+    color: #ffffff;
+    margin-left: 240px;
+    margin-top: 60px;
+}
+header div h1{
+    font-size: 65px;
+    margin-bottom: 30px;
+    line-height: 80px;
+    letter-spacing: 0.001em;
+}
+header div p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+/* *****************Designing the button****************** */
+button{
+    background-color: #6663e9;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    padding: 10px 30px;
+}
+
+
+/* ****************Designing the multiple logo section********* */
+.multiple-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin: 0px 35px;
+    height: 150px;
+    position: relative;
+    margin-top: -80px;
+}
+
+.multiple-logo img{
+    height: 33px;
+    width: 126px;
+}
+
+.card h1{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.001em;
+    margin: 78px 0px;
+    line-height: 70px;
+}
+.card-item img{
+    height: 80vh;
+    width: 32vw;
+    border-radius: 20px;
+}
+.card-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 10px;
+}
+.card-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.card-block div:nth-child(2){
+    margin-top: 50px;
+}
+.card-block div:nth-child(3){
+    margin-top: 100px;
+}
+.card-block div:nth-child(4){
+    margin-top: 160px;
+}
+.card-block div:nth-child(5){
+    margin-top: 100px;
+}
+.card-block div:nth-child(6){
+    margin-top: 40px;
+}
+.card-block div:nth-child(7){
+    margin-top: 40px;
+}
+.card-block div:nth-child(8){
+    margin-top: 100px;
+}
+.card-block div:nth-child(9){
+    margin-top: 160px;
+}
+
+.card-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -60px;
+    height: 20vh;
+    width: 29vw;
+    padding: 15px 22px;
+}
+
+.card-detail div h3{
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.card-detail div p{
+    color: #6663e8;
+    font-size: 20px;
+    font-weight: 800;
+}
+.card-detail button{
+    font-size: 15px;
+    font-weight: 800;
+    height: 50px;
+}
+
+
+/* ************************Designing first feature image section************* */
+.Feature-Image1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+}
+.Feature-Image1 div{
+    width: 50vw;
+}
+.Feature-Image1 div:first-child{
+    position: relative;
+}
+img[alt="Background Image1"]{
+    position: absolute;
+    z-index: -1;
+    height: 450px;
+    width: 650px;
+    left: -30px;
+    bottom: -210px;
+}
+img[alt="Feature Image1"]{
+    position: absolute;
+    height: 405px;
+    width: 465px;
+    border-radius: 50px;
+    bottom: -95px;
+    left: 100px;
+}
+.Feature-Image1 div:last-child{
+    margin-left: 80px;
+    z-index: 2;
+}
+.Feature-Image1 h1{
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    margin-bottom: 40px;
+    line-height: 70px;
+}
+.Feature-Image1 p{
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: #585c65;
+}
+
+/* ************************Designing Second feature image section************* */
+.Feature-Image2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+    margin-bottom: 100px;
+    gap: 25px;
+}
+.Feature-Image2 div{
+    width: 50vw;
+}
+.Feature-Image2 div:last-child{
+    position: relative;
+}
+img[alt="Background Image2"]{
+    position: absolute;
+    z-index: -1;
+    height: 550px;
+    right: 0px;
+    width: 700px;
+    bottom: -230px;
+}
+img[alt="Feature Image2"]{
+    position: absolute;
+    height: 400px;
+    width: 420px;
+    border-radius: 50px;
+    bottom: -90px;
+    right: 140px;
+}
+.Feature-Image2 div:first-child{
+    margin-left: 50px;
+    z-index: 2;
+}
+.Feature-Image2 h1{
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    margin-bottom: 40px;
+    line-height: 70px;
+}
+.Feature-Image2 p{
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: #585c65;
+}
+
+
+/* ***************Designing the newsletter section ************** */
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6663e9;
+    border-radius: 50px;
+    text-align: center;
+    margin: 120px 80px;
+    padding: 60px 0px;
+    color: #ffffff;
+}
+.news h1{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.news p{
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.news form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.news form div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #5553cc;
+    width: 450px;
+    height: 60px;
+    border-radius: 50px;
+    padding: 0px 20px;
+}
+.news form input{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+.news form button{
+    background-color: #ffffff;
+    border-radius: 50px;
+    color: #6663e9;
+    height: 60px;
+    width: 150px;
+}
+
+/* ********************Designing the footer section**************** */
+footer{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin: 0px 100px 70px 100px;
+    grid-area: 50px;
+}
+.footer div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+img[alt="Foot logo"]{
+    width: 150px;
+}
+footer div .soc-med-icon{
+    display: flex;
+    height: 45px;
+    width: 45px;
+    gap: 30px;
+    margin: 20px 0px;
+}
+.footer div:first-child p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 100px;
+}
+.footer-list-item ul li h2{
+    font-weight: 900;
+}
+.footer-list-item ul li{
+    margin-bottom: 15px;
+}
