@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    background-color: #f0f4f5;
+    margin: auto;
+}
+
+/* Applying CSS to the Navigation Menu */
+.navbar{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+img[alt="logo"]{
+    scale: 0.6;
+}
+
+/* Applying CSS to the Navigation List Item */
+.nav-item ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 45px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 25px;
+}
+.nav-item ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ************Designing the main section or form section**************** */
+main{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 280px;
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    margin-top: 120px 0px;
+}
+form h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form div label{
+    font-size: 15px;
+    font-weight:900;
+    margin-bottom: 2px;
+}
+form div input{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+form div textarea{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+form button{
+    border: none;
+    border-radius: 7px;
+    background-color: #20bc7e;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 7px;
+}
